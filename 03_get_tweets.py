@@ -19,7 +19,7 @@ out = open(f"./twitter/collect_tweets-{data_now}.txt", "w")
 
 class MyListener(StreamListener):
     def on_data(self, data):
-        print(data)
+        #print(data)
         itemString = json.dumps(data)
         out.write(itemString + "\n")
         return True
