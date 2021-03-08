@@ -4,3 +4,6 @@
 **/MaquinaVirtual/
 **/twitter/
 **/Trabalho-Modulo-01/
+**/Docker/airflow/dags/
+**/Docker/airflow/logs/
+**/Docker/airflow/plugins/
