@@ -20,6 +20,9 @@
 ### **DOCKER**
 - [Airflow](./Docker/README.md)
 
+### **PREFECT**
+- [Prefect](./prefects/README.md)
+
 
 # Trabalhos
 - [Modulo 1](./Trabalho-Modulo-01/README.md)
