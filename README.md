@@ -18,11 +18,11 @@
 - [03 Extract Analyze Tweets.ipynb](./03_extract_analyze_tweets.ipynb)
 
 ### **DOCKER**
-- [Airflow](./Docker/airflow/)
+- [Airflow](./Docker/README.md)
 
 
 # Trabalhos
-- [Modulo 1]()
+- [Modulo 1](./Trabalho-Modulo-01/README.md)
 
 <br>
 
