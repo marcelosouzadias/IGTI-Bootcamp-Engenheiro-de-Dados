@@ -1,0 +1,10 @@
+docker run -v /mnt/d/treinamento/IGTI-Bootcamp-Engenheiro-de-Dados/Modulo-02/Docker/Cassandra:/mnt -it debian bash
+
+
+apt-get install default-jdk
+
+apt-get install curl
+
+
+comando entrar no Cassandra
+cqlsh
