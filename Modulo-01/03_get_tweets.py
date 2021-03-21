@@ -5,16 +5,15 @@ import requests
 
 #Configuração das variaveis da chave de acesso
 
-consumer_key = "v6OAOrL5FmNu369Fym6TRrEwr"
-consumer_secret = "7JkMctS3QDk02q14J35fp9JjYJ43AP7FLHnHhmTdfmqE88OaL3"
+consumer_key = "consumer_key"
+consumer_secret = "consumer_secret"
 
-access_token = "60646343-7Ib39Qw2oOGftjCzXq82FKir0GJWPMrRmHFcv9VBc"
-access_token_secret = "eswiXs3SWvCZNtNyc4pw1e7OqPiSEeYYh6iitzitrv3L9"
+access_token = "access_token"
+access_token_secret = "access_token_secret"
 
 #Definir arquivo de saida dos Tweets
 data_now = datetime.now().strftime("%y-%m-%d-%H-%M-%S")
 out = open(f"./twitter/collect_tweets-{data_now}.txt", "w")
-
 
 # url de inserção dos tweets no elastic
 url = "http://localhost:9200/twitter/_doc"
